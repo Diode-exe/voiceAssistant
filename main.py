@@ -97,6 +97,7 @@ def switchWindows():
     pyautogui.press('tab')
     time.sleep(0.1)
     pyautogui.keyUp('alt')
+    pyautogui.keyUp('tab')
 
 while not stop:
     try:
